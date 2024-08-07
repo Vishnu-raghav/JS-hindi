@@ -30,3 +30,29 @@ const myboj = {
 const myFunction = function(){
     console.log("hello world")
 }
+
+
+
+// ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+
+// Stack (primitive) , Heap(Non-primitive) 
+
+let myName = "vishnu Raghav"
+let anotherName = myName;
+anotherName = "raghav"
+
+// console.log(myName)
+// console.log(anotherName)
+
+
+
+let userone = {
+    email : "raghav@mail.com",
+    upi :  "raghav@ybl"
+}
+
+
+let usertwo = userone;
+usertwo.email = "vishnu@gmail.com"
+console.log(userone)
+console.log(usertwo)
